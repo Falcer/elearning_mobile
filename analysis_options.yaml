@@ -1,0 +1,23 @@
+include: package:pedantic/analysis_options.1.11.0.yaml
+analyzer:
+  exclude:
+    - "**.freezed.dart"
+    - "**.g.dart"
+
+linter:
+  rules:
+    - always_use_package_imports
+    - avoid_print
+    - avoid_slow_async_io
+    - await_only_futures
+    - camel_case_types
+    - directives_ordering
+    - exhaustive_cases
+    - file_names
+    - non_constant_identifier_names
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - type_annotate_public_apis
+    - unnecessary_await_in_return
+    - unnecessary_lambdas
+    - unnecessary_final
